@@ -30,7 +30,7 @@ public class JwtUtil {
     @Value("${jwt.expiration}")
     private Long expiration;
 
-    @Value("${jwt.refresh.expiration")
+    @Value("${jwt.refresh.expiration}")
     private  Long refreshExpiration;
 
     //Tạo key
